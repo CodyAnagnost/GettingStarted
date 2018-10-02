@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingStarted", "GettingStarted\GettingStarted.csproj", "{D03C736B-D212-4B1C-B6E7-4C5A589B0D60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Favorite", "Favorite\Favorite.csproj", "{E7D0C8AA-5D17-4005-BDA3-E140166F629E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Favorite", "Favorite\Favorite.csproj", "{E7D0C8AA-5D17-4005-BDA3-E140166F629E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Password", "Password\Password.csproj", "{1FE86EE3-331F-4CD3-9703-D825D7FE8F33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E7D0C8AA-5D17-4005-BDA3-E140166F629E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7D0C8AA-5D17-4005-BDA3-E140166F629E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7D0C8AA-5D17-4005-BDA3-E140166F629E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE86EE3-331F-4CD3-9703-D825D7FE8F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE86EE3-331F-4CD3-9703-D825D7FE8F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE86EE3-331F-4CD3-9703-D825D7FE8F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE86EE3-331F-4CD3-9703-D825D7FE8F33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
