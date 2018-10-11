@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingStarted", "GettingSt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Favorite", "Favorite\Favorite.csproj", "{E7D0C8AA-5D17-4005-BDA3-E140166F629E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Password", "Password\Password.csproj", "{1FE86EE3-331F-4CD3-9703-D825D7FE8F33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Password", "Password\Password.csproj", "{1FE86EE3-331F-4CD3-9703-D825D7FE8F33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Largest", "Largest\Largest.csproj", "{14898718-6A70-4F3C-948C-5D1C7BE87AFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grade", "grade\grade.csproj", "{85C85ADB-4263-4C39-BA5D-7C0DCFC7E7EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{1FE86EE3-331F-4CD3-9703-D825D7FE8F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FE86EE3-331F-4CD3-9703-D825D7FE8F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FE86EE3-331F-4CD3-9703-D825D7FE8F33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14898718-6A70-4F3C-948C-5D1C7BE87AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14898718-6A70-4F3C-948C-5D1C7BE87AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14898718-6A70-4F3C-948C-5D1C7BE87AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14898718-6A70-4F3C-948C-5D1C7BE87AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85C85ADB-4263-4C39-BA5D-7C0DCFC7E7EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85C85ADB-4263-4C39-BA5D-7C0DCFC7E7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85C85ADB-4263-4C39-BA5D-7C0DCFC7E7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85C85ADB-4263-4C39-BA5D-7C0DCFC7E7EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

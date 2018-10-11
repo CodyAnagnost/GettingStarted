@@ -6,42 +6,39 @@ namespace Password
     {
         static void Main(string[] args)
         {
-
+            int temp = 0;
             int att = 0;
             while (att < 3) 
             {
-                Console.WriteLine("Input a username loser ");
+                Console.WriteLine("Input a Username ");
                 String username = Console.ReadLine();
                 if (username != "root")
                 {
-                    Console.WriteLine("well thats not right");
+
                     att++;
-                }
-
-                else
-                {
-                    Console.WriteLine("Correct");
+                    Console.WriteLine("Input a Password");
                 }
 
 
-                Console.WriteLine("Now gimmy ya shword ");
+                
                 String shword = Console.ReadLine();
                 if (shword != "letmein")
                 {
-                    Console.WriteLine("well thats still not right");
-                    att++;
+                    
+                    temp++;
                 }
                 else
                 {
                     Console.WriteLine("uR in Kid");
-                    break;
+                    
                 }
             }
 
-            if (att == 3)
+            if (att == 3 || temp == 3)
 
             {
                 Console.WriteLine("ur locked out fool");
+
             }
         }
     }
